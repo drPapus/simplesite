@@ -1,0 +1,146 @@
+body{
+font-family:'Source Sans Pro', sans-serif;
+}
+
+/*top navigation*/
+.pull-left{
+margin-left:-50px;
+}
+.pull-right{
+margin-right:-50px;
+}
+.socials{
+background-color:#f5f7fa;
+border-bottom:2px solid #e6e9ed;
+position:absolute;
+width:100%;
+z-index:2000;
+}
+
+.socials a{
+color: #506a85;
+font-size: 10px;
+padding:15px;
+text-decoration:none;
+}
+.socials .pull-right a{
+padding: 15px 5px;
+}
+
+.glyphicon::before{
+margin-right:5px;
+}
+
+.fa{
+margin-right:3px;
+}
+
+.socials li{
+display:inline-block;
+font-family:'Source Sans Pro', sans-serif;
+}
+/*end top navigation*/
+
+/*bottom navigation*/
+.stuck_container .navbar-brand {
+padding-left:110px;
+}
+
+.stuck_container .navbar{
+padding-top:50px;
+height:130px;
+background:#fff;
+border-bottom:none;
+z-index:1500;
+}
+.stuck_container .container {
+top:17px;
+position: relative;
+}
+.stuck_container .nav{
+padding-left:50px;
+font-family:'Source Sans Pro', sans-serif;
+font-weight:bold;
+text-transform:uppercase;
+}
+.nav li{
+display:inline-block;
+background-color:#fff;
+}
+
+.nav a{
+color:#506a85 !important;
+}
+.isStuck{
+    margin-top: 0;
+    position: fixed;
+    top: -50px;
+    visibility: visible;
+    width: 100%;
+    z-index:900;
+}
+
+.stuck_container .form-control{
+border:1px solid #fff;
+box-shadow:none;
+}
+.stuck_container .btn{
+background-color:#fff;
+}
+
+/*end bottom navigation*/
+
+/*jumbotron*/
+.jumbotron{
+  background-image:url('./img/jumbotron.png');
+  height: 880px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.jumbotron .container{
+    position:relative;
+    top:300px;
+}
+
+.jumbotron .container h1{
+color:#fff;
+text-transform:uppercase;
+font-weight:bold;
+font-size:5.2em;
+}
+
+.jumbotron .container p{
+font-size:20px;
+text-align:center;
+color:#a3b1bf;
+}
+
+.jumbotron .container .btn{
+ transition: all 0.3s ease 0s;
+ font-weight:bold !important;
+ text-transform:uppercase;
+ font-size:15px ;
+ padding:20px;
+ }
+/*end jumbotron*/
+
+/*advantages*/
+.container .text-center{
+color:#506a85;
+padding-top:76px;
+
+}
+.container .text-center small{
+font-size:20px;
+text-align:center;
+color:#a3b1bf;
+}
+.media .fa{
+font-size:55px;
+color:#00bc9c;
+}
+.media a{
+font-size:20px;
+color:#506a85;
+}
