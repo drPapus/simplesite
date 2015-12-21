@@ -130,6 +130,7 @@ color:#a3b1bf;
 color:#506a85;
 padding-top:76px;
 
+
 }
 .container .text-center small{
 font-size:20px;
@@ -146,4 +147,9 @@ color:#506a85;
 }
 .adv .row{
 padding-top:80px;
+padding-bottom:130px;
+}
+/*well*/
+.well .row{
+padding-top:130px;
 }
