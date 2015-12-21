@@ -42,7 +42,7 @@ font-family:'Source Sans Pro', sans-serif;
 /*end top navigation*/
 
 /*bottom navigation*/
-.stuck_container .navbar-brand {
+.navbar .navbar-brand {
 padding-left:110px;
 }
 
@@ -53,7 +53,7 @@ background:#fff;
 border-bottom:none;
 z-index:1500;
 }
-.stuck_container .container {
+.navbar .container {
 top:17px;
 position: relative;
 }
@@ -136,11 +136,14 @@ font-size:20px;
 text-align:center;
 color:#a3b1bf;
 }
-.media .fa{
+.adv .fa{
 font-size:55px;
 color:#00bc9c;
 }
-.media a{
+.adv a{
 font-size:20px;
 color:#506a85;
+}
+.adv .row{
+padding-top:80px;
 }
