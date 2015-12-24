@@ -152,4 +152,26 @@ padding-bottom:130px;
 /*well*/
 .well .row{
 padding-top:130px;
+text-align:center;
 }
+.well h4{
+color:#506a85;
+font-weight:bolder;
+}
+.well p {
+font-size:13px;
+}
+
+ #carousel .item{
+  margin: 3px;
+}
+ #carousel .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+.well .thumbnail{
+border-radius:0;
+padding:0;
+}
+
