@@ -187,3 +187,30 @@ footer{
 background:#2f4052;
 color:#8c9aa8;
 }
+footer p a{
+float:left;
+}
+footer p{
+margin-top:80px;
+}
+footer a{
+color:#8c9aa8;
+font-weight:bold;
+}
+footer a:hover{
+color:#fff;
+text-decoration:none;
+}
+footer img{
+position:relative;
+right:15px;
+}
+footer .text-center{
+text-transform:uppercase;
+font-weight:bolder;
+color:#fff !important;
+}
+
+
+
+
